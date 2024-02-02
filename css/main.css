@@ -1,0 +1,127 @@
+.nav-icon {
+  width: 50px;
+}
+.nav-link {
+  width: 300;
+  background-color: rgb(0, 0, 0) !important;
+  padding-top: 50px !important;
+}
+#nav {
+  color: white !important;
+  white-space: nowrap !important;
+  z-index: 1 !important;
+}
+i:hover {
+  cursor: pointer !important;
+}
+#content {
+  z-index: -1;
+}
+#nav ul li:hover {
+  cursor: pointer !important;
+}
+.item:hover .layer {
+  top: 0% !important;
+}
+.continer {
+  width: 80% !important;
+  margin: auto !important;
+}
+.item {
+  overflow: hidden !important;
+  cursor: pointer !important;
+}
+.layer {
+  transition: 0.5s !important;
+}
+.container {
+  padding-inline: 100px !important;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: wheat;
+  border-radius: 10px;
+}
+
+.loading {
+  min-height: 100vh !important;
+  z-index: 99999999999999999999999 !important;
+}
+#content {
+  padding-inline: 100px !important;
+}
+#search {
+  padding-inline: 100px !important;
+}
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  border-top: 4px solid #fff;
+  border-right: 4px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  z-index: 9999999999999999999999999 !important;
+}
+.loader::after {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  padding-top: 0 !important;
+  left: 0;
+  top: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border-bottom: 4px solid #ff3d00;
+  border-left: 4px solid transparent;
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*media*/
+
+@media (max-width: 1399.98px) {
+}
+@media (max-width: 1199.98px) {
+}
+@media (max-width: 991.98px) {
+  #content {
+    padding-inline: 10px !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #content {
+    padding-inline: 10px !important;
+  }
+  .details {
+    padding: 50px !important;
+  }
+}
+@media (max-width: 575.98px) {
+  #content {
+    padding-inline: 10px !important;
+  }
+  .details {
+    padding: 50px !important;
+  }
+}
